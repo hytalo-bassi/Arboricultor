@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://src/scenes/MainScene.cs" id="1"]
+[ext_resource type="Script" path="res://src/core/turtle/TurtleInterpreter.cs" id="2"]
+[ext_resource type="Script" path="res://src/generation/Renderer.cs" id="3"]
+
+[node name="MainScene" type="Node3D"]
+script = ExtResource("1")
+iteration_interval = 0.8
+
+[node name="TurtleInterpreter" type="Node" parent="."]
+script = ExtResource("2")
+step_length = 1.0
+angle = 25.0
+initial_radius = 0.2
+radius_taper = 0.7
+
+[node name="Renderer" type="Node3D" parent="."]
+script = ExtResource("3")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.857, 0.515, 0, -0.515, 0.857, 0, 8, 18)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707, 0.707, 0, -0.707, 0.707, 0, 10, 0)

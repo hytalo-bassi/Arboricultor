@@ -54,7 +54,7 @@ namespace LSystemTree.Core.Turtle
             float radius = 0.1f,
             float age = 0f,
             int depth = 0,
-            Dictionary<string, float>? parameters = null)
+            IReadOnlyDictionary<string, float>? parameters = null)
         {
             Position = position;
             Heading = Vector3.Normalize(heading);
