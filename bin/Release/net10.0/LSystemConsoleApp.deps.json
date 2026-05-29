@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "LSystemConsoleApp/1.0.0": {
+        "dependencies": {
+          "Arboricultor": "1.0.0"
+        },
+        "runtime": {
+          "LSystemConsoleApp.dll": {}
+        }
+      },
+      "GodotSharp/4.6.3": {
+        "runtime": {
+          "lib/net8.0/GodotSharp.dll": {
+            "assemblyVersion": "4.6.3.0",
+            "fileVersion": "4.6.3.0"
+          }
+        }
+      },
+      "Arboricultor/1.0.0": {
+        "dependencies": {
+          "GodotSharp": "4.6.3"
+        },
+        "runtime": {
+          "Arboricultor.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LSystemConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GodotSharp/4.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2gLsonAxGdDGm9/yYDy4A1U+db8JFGvlzt6ZuzX14cqrkCa7noikZDHcqtujcVAjXLOyxm+TuMdsmihYLZq1RA==",
+      "path": "godotsharp/4.6.3",
+      "hashPath": "godotsharp.4.6.3.nupkg.sha512"
+    },
+    "Arboricultor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mkO31SQ6FVE=",
+  "success": true,
+  "projectFilePath": "/Users/hymb/Documents/projects/arboricultor/LSystemConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/hymb/.nuget/packages/godotsharp/4.6.3/godotsharp.4.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
